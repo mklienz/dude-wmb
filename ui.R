@@ -3,7 +3,7 @@ ui <- function(request) {
     skin = 'black',
     
     dashboardHeader(
-      title = "Dude, Where's My Bus?!",
+      title = "Dude, Where's My Bus?",
       titleWidth = 300,
       tags$li(class = 'dropdown',
               div(
