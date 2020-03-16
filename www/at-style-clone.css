@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #283d51;
+  font-weight: normal;
+}
+strong,
+b {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 15px 0;
+}
+h2,
+h3,
+h4,
+h6 {
+  color: #283d51;
+  line-height: 25px;
+  font-weight: normal;
+}
+h2,
+h4,
+h6 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+h3,
+h5 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+a {
+  color: #007bcc;
+  text-decoration: none;
+  outline: none;
+}
+
+.wrapper{
+  height:100%;
+  position:relative;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+.box.box-primary {
+  border-top-color: #283d51;
+  
+}
+
+.box.box-info {
+  border-top-color: #019bff;
+}
+
+.box.box-info .box-header .box-title a{
+  color: #019bff;
+}

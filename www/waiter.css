@@ -1,0 +1,15 @@
+.sun {
+  background-color: #283D51;
+}
+
+.orbit {
+  border-color: #283D51;
+}
+
+.planet {
+  background-color: #283D51;
+}
+
+.pg-loading-screen .pg-loading-html.pg-loaded h4{
+  color: #283d51;
+}

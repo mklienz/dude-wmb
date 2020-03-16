@@ -1,0 +1,60 @@
+/* Main body background colours*/
+/*
+.content-wrapper, .right-side {
+  background-color: #ecf0f5;
+}
+
+.box {
+  background-color: #fff;
+}
+*/
+.form-group {
+  margin-bottom: 5px;
+}
+
+.get-routes-ui {
+  margin-bottom: 5px;
+}
+
+.form-control.selectize-control {
+  margin-bottom: 0px;
+}
+
+.box p{
+  margin-bottom: 5px;
+}
+
+.box #send_routes {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.tab-content .form-group.shiny-input-container label {
+  font-weight: 400;
+}
+
+.dataTables_filter {
+  display: none;
+}
+
+.box #multi_boards_bookmark, .box #live_buses_bookmark {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.box #multi-boards-save-note {
+  font-size: 12px;
+  text-align: center;
+}
+
+#route_select {
+  /* Fade out while not hovering */
+  opacity: 0.8;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+
+#max_stops {
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,164 @@
+/* sidebar and header*/
+
+/* Map handling */
+#user_map {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
+#loc_validation {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.sidebar .selectize-control {
+  margin-bottom: 0px;
+}
+
+.sidebar #user_map a {
+  color: #0078A8;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.sidebar #user_map .leaflet-container .leaflet-control-attribution a{
+  border: none;
+}
+
+
+.sidebar #user_map .leaflet-control-zoom-in {
+  color: black;
+  /* font: bold 18px 'Lucida Console', Monaco, monospace; */
+  font-size: 22px; 
+  line-height: 30px;
+}
+
+.sidebar #user_map .leaflet-control-zoom-out {
+  color: black;
+  font-size: 22px; 
+  line-height: 30px;
+}
+
+
+/* SIDEBAR COLOURS */
+
+/* TOP OF SIDEBAR SPACER */
+.skin-black .sidebar-menu > li.header-spacer {
+  line-height: 15px;
+  background-color: #ecf0f5;
+  border-bottom: 1px solid #232d3a;
+} 
+
+.skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper  {
+  background-color: #17232f;
+}
+
+.skin-black .sidebar-menu > li.header {
+  color: #959BA0; 
+  padding-left: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #17232f;
+  border-bottom: 1px solid #232d3a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.skin-black .sidebar-menu > li > a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #232d3a;
+}
+
+.skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a {
+  color: #019bff;
+  border-left-color: #019bff;
+  background: transparent;
+}
+
+.sidebar-menu .box .box-body .form-group.shiny-input-container label {
+  color: #fff;
+  font-weight: normal;
+}
+.sidebar-menu .box {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border-top: none;
+  box-shadow: none;
+  background: transparent;
+  border-bottom: 1px solid #232d3a;
+}
+
+.sidebar-menu .box .box-body {
+  /*background: #0D1924;*/
+  background: #17232f;
+  border-radius: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 0px;
+}
+
+.sidebar-menu .box .box-body .form-group.shiny-input-container {
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-menu .box .box-header .box-title {
+  font-size: 14px;
+  padding-left: 8px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.box.box-solid > .box-header {
+  background: transparent;
+}
+
+.sidebar-menu .box.box-solid>.box-header>.box-tools .btn {
+  color: #fff;
+}
+
+/* HEADER */
+
+.skin-black .main-header>.logo {
+  background-color: #17232f;
+  color: #fff;
+  border-right: none;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid #232d3a;
+}
+
+.skin-black .main-header>.logo:hover {
+  background-color: #17232f;
+}
+
+.skin-black .main-header .navbar {
+  background-color: #17232f;
+}
+
+.skin-black .main-header .navbar>.sidebar-toggle {
+  color: #fff;
+  border-right: 1px solid #232d3a;
+  border-left: 1px solid #232d3a;
+}
+
+.skin-black .main-header .navbar .sidebar-toggle:hover {
+  color: #17232f;
+  background: #fff;
+}
+
+.skin-black .sidebar-menu .box .box-body p{
+  white-space: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
