@@ -1,9 +1,14 @@
 ui <- function(request) {
   dashboardPage(
     skin = 'black',
+    title = "Dude, Where's My Bus?",
     
     dashboardHeader(
-      title = "Dude, Where's My Bus?",
+      title = span(
+        tagList(
+          tags$img(src = "./dude-wmb.png", 
+                   align = "center", 
+                   height = 50))),
       titleWidth = 300,
       tags$li(class = 'dropdown',
               div(
